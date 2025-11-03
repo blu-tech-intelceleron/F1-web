@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 Fan Zone 🏎️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏁 F1 Fan Zone</h1>
+    <p>Quiz • Standings • Vote • Countdown</p>
+  </header>
+
+  <main>
+    <section id="countdown">
+      <h2>⏱️ Next Race Countdown</h2>
+      <p id="timer">Loading...</p>
+    </section>
+
+    <section id="quiz">
+      <h2>🧠 F1 Quiz</h2>
+      <div id="quiz-container"></div>
+      <button id="next-btn">Next Question</button>
+    </section>
+
+    <section id="vote">
+      <h2>🗳️ Vote for Who Will Win the Next Race</h2>
+      <form id="vote-form">
+        <input type="text" id="driver-name" placeholder="Enter driver name..." required />
+        <button type="submit">Vote</button>
+      </form>
+      <p id="vote-result"></p>
+    </section>
+
+    <section id="standings">
+      <h2>🏆 2025 Driver Standings</h2>
+      <ul id="standings-list">Loading standings...</ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by <strong>You</strong> 🚀 | Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
